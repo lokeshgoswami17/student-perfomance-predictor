@@ -22,7 +22,10 @@ with st.sidebar:
     st.write("Machine Learning powered grade forecasting. Features: Study Habits, Wellness, and Part-Time Work impacts.")
     st.write("---")
     # Put your actual model accuracy here from your ipynb notebook
-    st.metric(label='Model Accuracy', value='91.5%', delta='Optimized') 
+    st.subheader("📊 Key Model Insights")
+    st.info("📈 Top Positive Factors: Attendance & Study Hours")
+    st.warning("📉 Top Negative Factor: Part-Time Job")
+    st.success("📚 Trained on 1,000+ student records") 
 
 # 3. Main Title
 st.title("Student Performance Predictor")
