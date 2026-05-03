@@ -47,7 +47,7 @@ with col2:
     st.subheader("Lifestyle Factors", divider="gray")
     # Kept slider for subjective data, added number_input for sleep
     mental_health = st.slider("Mental Health Rating (1-10)", min_value=1, max_value=10, value=5)
-    sleep_hours = st.number_input("Sleep Hours (per night)", min_value=0.0, max_value=24.0, value=7.0, step=0.5)
+    study_hours = st.number_input("Study Hours (per day)", min_value=0.0, max_value=8.3, value=2.0, step=0.5)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
